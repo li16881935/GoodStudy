@@ -46,6 +46,9 @@ public class Girl {
     }
 
     public void goshopping() {
-        System.out.println(name + "在购物");
+        System.out.println(name + "在购物!");
+    }
+    public void rest() {
+        System.out.println(name + "在休息!");
     }
 }
