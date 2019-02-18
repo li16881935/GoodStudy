@@ -53,7 +53,8 @@ public class Main {
         // git reset --hard^  一个^代表一级
         // git reset --hard~100  ~后是次数
 
-        // HEAD: 当前的指向
+        // HEAD: 当前的指向,最后一次提交的位置
+
         // git reset --hard HEAD^ 退回HEAD的前一个指向
         // git reset --hard HEAD^^ 退回HEAD的前二个指向
         // git reset --hard HEAD~n 退回HEAD的前n个指向
@@ -71,6 +72,13 @@ public class Main {
         // 暂存区, 版本库在.git文件中
 
         // 远程仓库: git服务器
+
+        // 撤销修改
+        // 1.工作区: 直接修改, 或命令 git checkout --  文件
+        // 2.暂存区: 直接修改,再次add,或者命令: git reset HEAD 文件
+        // 2.版本库: 版本回退
+
+        // 删除文件
 
 
 
